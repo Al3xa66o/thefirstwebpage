@@ -1,0 +1,1 @@
+first landing page from the odin project tutorial.
