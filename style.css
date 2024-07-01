@@ -9,8 +9,109 @@ body {
 .top-section {
     background-color: #1F2937;
     display: flex;
-    margin-bottom: 48px;
+    justify-content: space-between;
+    padding-top: 0;
+    height: 40px;
 }
+
+
+.head-title {
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-right: 18px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-content {
+    display: flex;
+    background-color: #1F2937;
+    height: 300px;
+    padding: 50px;
+}
+
+.text-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900px;
+    align-items: center;
+}
+.central {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.secon-content {
+    display: flex;
+}
+
+
+
+
+
+
+
+.third-content {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+.fourth-content {
+    display: flex;
+}
+
+
+
+
+
+.footer {
+    display: flex;
+}
+
+.action-box {
+    background-color: #3882f6;
+    
+}
+
+
+
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    background-color: #3882f6;
+    color: white;
+}
+
 
 ul {
     list-style-type: none;
