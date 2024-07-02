@@ -1,132 +1,116 @@
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
     display: flex;
+    flex-direction: column;
+    height: 100%;
     margin: 0;
     padding: 0;
-    flex-direction: column;
-    
-
 }
 
 .top-section {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 0;
-    height: 40px;
 }
-
 
 .head-title {
     display: flex;
     font-size: 24px;
     color: #f9faf8;
-    margin-left: 150px;
     justify-content: center;
     align-items: center;
+    margin-left: 150px;
 }
 
 .top-row {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     margin-right: 150px;
+    font-size: 18px;
 }
-
 
 .first-content {
-    display: flex;
     background-color: #1F2937;
-    padding: 50px 150px;
-    gap: 30px;
-}
 
-.first-image {
+}
+.text-one {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+    padding: 50px 150px;
+    
 }
-
 .title {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900px;
-    align-items: center;
+
+
 }
 .central {
     font-size: 18px;
     color: #f9faf8;
+
 }
+.first-image {
+    display: flex;
+}
+
 
 .secon-content {
-    display: flex;
     background-color: white;
-    align-items: center;
-    
+    padding: 50px 150px;
+    flex: 1;
 }
 
-.information {
+.secon-title {
+    font-size: 36px;
+    font-weight: 900;
     display: flex;
     justify-content: center;
-    gap: 50px;
-    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
-
+.information {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.box {
+    max-width: 200px;
+}
 .text {
     display: flex;
     flex-wrap: wrap;
 }
 
 
-
-
-
-
-
 .third-content {
+    background-color: #e5e7eb;
+}
+.quote {
     display: flex;
+    justify-content: center;
     align-items: center;
-    
-  
+    padding: 100px 200px;
+    flex-wrap: wrap;
+}
+.quote-text {
+    font-size: 30px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+.quote-speak {
+    font-weight: bold;
 }
 
 
 
 
-
-
-
-
-
-.fourth-content {
-    display: flex;
-
-}
-
-
-
-
-
-.footer {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.action-box {
-    background-color: #3882f6;
-    
-}
-
-
-
-button {
-    border: none;
-    border-radius: 8px;
-    padding: 8px 16px;
-    background-color: #3882f6;
-    color: white;
-}
 
 
 ul {
